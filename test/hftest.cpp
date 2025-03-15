@@ -124,9 +124,10 @@ configuration settings. \n
 #if defined(FIX8_CODECTIMING)
 #include <fix8/f8measure.hpp>
 #endif
-#include "Perf_classes.hpp"
-#include "Perf_router.hpp"
+// Order should be preserved
 #include "Perf_types.hpp"
+#include "Perf_router.hpp"
+#include "Perf_classes.hpp"
 #include "hftest.hpp"
 
 //-----------------------------------------------------------------------------------------
